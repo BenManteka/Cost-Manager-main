@@ -55,3 +55,4 @@ The project follows **RESTful design principles**, implements the **computed pat
 + **Ben Manteka** - [GitHub Profile](https://github.com/BenManteka)
 + **Priel Tarrab** - [GitHub Profile](https://github.com/prie123)
 
+
