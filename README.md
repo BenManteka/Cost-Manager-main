@@ -11,13 +11,13 @@ CostTracker allows users to manage and track their expenses efficiently. The app
 
 ## 🚀 Features
 
-✔ **Add Expenses** – Categorize expenses into *food, health, housing, sport or education*.  
-✔ **Monthly Reports** – Generate expense summaries grouped by category for a specific month and year.  
-✔ **User Details** – Retrieve user information along with total expenses.  
-✔ **Developer Info (about)** – Fetch details about the project team.
-✔ **Logs (Server-side)** – HTTP requests/events captured via middleware; queryable with limit and userid.
-✔ **Validation & Errors** – Clear 400 for bad requests and 404 for not-found user, with JSON error shape.
-✔ **Test-Friendly Behavior** – In NODE_ENV=test the app doesn’t listen/connect itself; tests run against an in-memory MongoDB and clean collections between tests.
+- ✔ **Add Expenses** – Categorize expenses into *food, health, housing, sport or education*.  
+- ✔ **Monthly Reports** – Generate expense summaries grouped by category for a specific month and year.  
+- ✔ **User Details** – Retrieve user information along with total expenses.  
+- ✔ **Developer Info (about)** – Fetch details about the project team.
+- ✔ **Logs (Server-side)** – HTTP requests/events captured via middleware; queryable with limit and userid.
+- ✔ **Validation & Errors** – Clear 400 for bad requests and 404 for not-found user, with JSON error shape.
+- ✔ **Test-Friendly Behavior** – In NODE_ENV=test the app doesn’t listen/connect itself; tests run against an in-memory MongoDB and clean collections between tests.
 
 The project follows **RESTful design principles**, implements the **computed pattern** in MongoDB, and maintains clean code architecture with a dedicated `models` folder for database operations.
 
