@@ -119,7 +119,7 @@ router.get('/report', async (req, res) => {
 
         console.log('Aggregation Results:', costs);
 
-        // ✅ List of supported cost categories
+        // List of supported cost categories
         const categories = ["food", "health", "housing", "sports", "education"];
 
         // Initialize a report structure with all categories
@@ -137,7 +137,7 @@ router.get('/report', async (req, res) => {
             }
         });
 
-        // ✅ Sort the report so that empty categories appear last
+        // Sort the report so that empty categories appear last
         report.sort((a, b) => {
             const aValues = Object.values(a)[0].length;
             const bValues = Object.values(b)[0].length;
@@ -170,7 +170,6 @@ router.get('/report', async (req, res) => {
     }
 });
 
- // 👇
 router.get('/logs', async (req, res) => {
   try {
     const limit = Math.min(Number(req.query.limit) || 50, 200); // default 50, max 200
