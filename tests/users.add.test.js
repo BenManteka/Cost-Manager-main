@@ -4,7 +4,7 @@ const { seedUsers } = require('./seed');
 
 describe('POST /api/users/add', () => {
   beforeEach(async () => {
-    await seedUsers(); // כבר יש id=1 ו-id=2
+    await seedUsers(); 
   });
 
   it('creates a new user (happy path)', async () => {
