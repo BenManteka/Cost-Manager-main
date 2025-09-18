@@ -1,4 +1,3 @@
-// tests/seed.js
 const User = require('../models/user');
 const Cost = require('../models/cost');
 const Log = require('../models/log');
